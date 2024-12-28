@@ -46,7 +46,9 @@ const About = () => {
           I am a skilled full-stack software engineer with a strong background in software development specialised in Java, Javascript and experience in frameworks like Spring, React and Node.js. 
           Through three years of hands-on software development, I have honed my expertise and problem-solving abilities to deliver efficient and reliable solutions.<br />
           My software engineering skills are well-versed, and I continuously strive to enhance my skills and stay up-to-date with the latest technologies, 
-          as showcased by certifications on my LinkedIn profile. With strong organizational and time management abilities, I bring expertise and enthusiasm 
+          as showcased by certifications on my 
+          <a href='https://www.linkedin.com/in/emanuel-conte-cardoso-20b75614b/' target="_blank"> LinkedIn </a> 
+          profile. With strong organizational and time management abilities, I bring expertise and enthusiasm 
           to drive positive outcomes for the teams I work with.
       </motion.p>
 
