@@ -12,7 +12,7 @@ import {
     reactjs,
     tailwind,
     git,
-    figma,
+    aws,
     docker,
     lode,
     conciflex,
@@ -103,8 +103,8 @@ import {
       icon: docker,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "AWS",
+      icon: aws,
     },
   ];
   
