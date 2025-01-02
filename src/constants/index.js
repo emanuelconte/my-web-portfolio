@@ -64,6 +64,14 @@ import {
       icon: spring,
     },
     {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },,
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -72,8 +80,8 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "Tailwind CSS",
+      icon: tailwind,
     },
     {
       name: "PostgreSQL",
@@ -84,14 +92,6 @@ import {
       icon: typescript,
     },
     {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -100,12 +100,12 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "figma",
+      icon: figma,
     },
   ];
   
