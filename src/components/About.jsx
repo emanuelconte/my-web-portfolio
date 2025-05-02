@@ -43,13 +43,30 @@ const About = () => {
       <motion.p 
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          I am a skilled full-stack software engineer with a strong background in software development specialised in Java, Javascript and experience in frameworks like Spring, React and Node.js. 
-          Through three years of hands-on software development, I have honed my expertise and problem-solving abilities to deliver efficient and reliable solutions.<br />
-          My software engineering skills are well-versed, and I continuously strive to enhance my skills and stay up-to-date with the latest technologies, 
-          as showcased by certifications on my 
-          <a href='https://www.linkedin.com/in/emanuel-conte-cardoso-20b75614b/' target="_blank"> LinkedIn </a> 
-          profile. With strong organizational and time management abilities, I bring expertise and enthusiasm 
-          to drive positive outcomes for the teams I work with.
+          With over 4 years of experience in full-stack development, I specialize in building modern web applications using Java/Spring Boot and Python 
+          for robust backend systems and React/TypeScript for dynamic frontend experiences. With expertise across the entire development stack, 
+          I architect solutions that are scalable, secure, and maintainable - from RESTful APIs and microservices to responsive user interfaces.
+          My technical toolkit includes cloud technologies (AWS, Docker) and DevOps practices to streamline deployment, along with a strong focus 
+          on clean code principles and performance optimization. I thrive in collaborative environments where I can solve complex problems 
+          while delivering tangible value through technology. You can explore my projects and contributions on
+          <a 
+            href='https://github.com/emanuelconte' 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-[#915eff] hover:text-white transition-colors duration-300 font-semibold mx-1"
+          > 
+            GitHub 
+          </a> 
+          and view my professional credentials on 
+          <a 
+            href='https://www.linkedin.com/in/emanuel-conte-cardoso/' 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-[#915eff] hover:text-white transition-colors duration-300 font-semibold mx-1"
+          > 
+            LinkedIn
+          </a>. 
+          I bring both technical excellence and business acumen to every project, delivering solutions that are not just functional but truly impactful.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
