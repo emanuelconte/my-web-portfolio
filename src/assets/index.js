@@ -9,7 +9,7 @@ import close from "./close.svg";
 import java from "./tech/java.png";
 import postgresql from "./tech/postgresql.png";
 import spring from "./tech/spring.png";
-import css from "./tech/css.png";
+import python from "./tech/python.png";
 import docker from "./tech/docker.png";
 import aws from "./tech/aws.png";
 import git from "./tech/git.png";
@@ -26,7 +26,7 @@ import lode from "./company/lode.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import dashboard from "./dashboard.png";
 
 export {
   logo,
@@ -39,7 +39,7 @@ export {
   postgresql,
   menu,
   close,
-  css,
+  python,
   docker,
   aws,
   git,
@@ -54,5 +54,5 @@ export {
   datadog,
   carrent,
   jobit,
-  tripguide,
+  dashboard,
 };

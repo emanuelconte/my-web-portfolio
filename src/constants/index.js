@@ -8,7 +8,7 @@ import {
     spring,
     typescript,
     html,
-    css,
+    python,
     reactjs,
     tailwind,
     git,
@@ -19,7 +19,7 @@ import {
     datadog,
     carrent,
     jobit,
-    tripguide,
+    dashboard,
     threejs,
   } from "../assets";
   
@@ -40,15 +40,15 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Front End Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Back End Developer",
       icon: mobile,
     },
     {
-      title: "Java Backend Developer",
+      title: "AWS Cloud Engineer",
       icon: backend,
     },
   ];
@@ -69,14 +69,14 @@ import {
     {
       name: "React JS",
       icon: reactjs,
-    },,
+    },
     {
       name: "HTML 5",
       icon: html,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Python",
+      icon: python,
     },
     {
       name: "Tailwind CSS",
@@ -110,8 +110,41 @@ import {
   
   const experiences = [
     {
+      title: "Senior Backend Developer",
+      company_name: "Conciflex (SaaS) - Maringá, Brazil",
+      company_link: "https://www.conciflex.com.br",
+      icon: conciflex,
+      iconBg: "#383E56",
+      date: "March 2024 - Present",
+      points: [
+        "Designed and deployed high-throughput financial APIs using Java/Spring Boot & Python, handling 10,000+ TPS with <50ms latency for payment processing and risk analysis.",
+        "Developed scalable Microservices with Hexagonal Architecture, improving modularity and reducing coupling by 40%; integrated GraphQL for flexible data aggregation.",
+        "Built REST/SOAP APIs for core banking systems (transactions, KYC, fraud detection), ensuring PCI-DSS compliance and end-to-end encryption (HTTPS, mutual TLS).",
+        "Optimized database performance (PostgreSQL/MySQL) by 35% via indexing, query tuning, and Redis caching, reducing response times for high-frequency trading data.",
+        "Automated CI/CD pipelines (Jenkins/GitHub Actions) with Docker/Kubernetes, cutting deployment time by 60% and enabling zero-downtime releases on AWS ECS.",
+        "Secured APIs with OAuth2, JWT, and RBAC; implemented audit trails and rate limiting to prevent abuse (fintech compliance).",
+        "Led migration of legacy monolith to event-driven Microservices (AWS SQS/SNS), improving scalability and fault tolerance for real-time stock trading.",
+        "Conducted load testing (Gatling/Locust) and static code analysis (SonarQube), maintaining 85%+ test coverage (JUnit, Mockito, pytest).",
+      ],
+    },
+    {
+      title: "Front End Developer",
+      company_name: "WebLume (Freelancer) - Maringá, Brazil",
+      company_link: "https://www.weblume.com.br",
+      icon: conciflex,
+      iconBg: "#383E56",
+      date: "Since March 2024",
+      points: [
+        "Developed 20+ responsive websites (SPAs, landing pages, portfolios) using React + TypeScript, optimizing for speed, SEO, and cross-browser compatibility.",
+        "Collaborated directly with clients to transform Figma/XD designs into functional websites, ensuring alignment with business goals.",
+        "Deployed and maintained sites on Vercel/Netlify, integrating analytics (Google Tag Manager) and basic SEO enhancements.",
+        "Followed Agile workflows to deliver projects on time, with post-launch support and iterative improvements.",
+      ],
+    },
+    {
       title: "Technical Support Engineer",
       company_name: "Datadog (SaaS) - Sydney, Australia",
+      company_link: "https://www.datadoghq.com",
       icon: datadog,
       iconBg: "#383E56",
       date: "October 2023 - February 2024",
@@ -125,32 +158,20 @@ import {
       ],
     },
     {
-      title: "Java Software Engineer",
+      title: "Java Backend Developer",
       company_name: "Lode - We Love Code (SaaS) - Maringá, Brazil",
+      company_link: "https://www.lode.com.br",
       icon: lode,
       iconBg: "#383E56",
       date: "August 2020 - March 2023",
       points: [
-        "Analysed code and debugged errors to improve system performance.",
-        "Implemented Scrum-based Agile software development for analysing, designing and developing applications.",
-        "Utilised best practices to identify and remedy bugs in applications within a specific timeframe.",
-        "Conducted full lifecycle software development from planning to deployment and maintenance.",
+        "Developed and optimized REST/SOAP APIs for medical applications, ensuring scalability, security, and compliance with healthcare data standards.",
+        "Applied Java backend best practices, including clean code principles, SOLID design patterns, and modular architecture to enhance maintainability and performance",
+        "Improved system performance by debugging, profiling, and refactoring legacy code.",
+        "Followed Agile (Scrum) methodology for end-to-end software development—from requirement analysis to deployment—ensuring iterative delivery of high-quality features.",
+        "Collaborated with cross-functional teams (frontend, QA, DevOps) to design scalable microservices using Spring Boot, Hibernate, and Docker.",
       ],
-    },
-    {
-      title: "Support and Deplyment Engineer",
-      company_name: "Conciflex (SaaS) - Maringá, Brazil",
-      icon: conciflex,
-      iconBg: "#383E56",
-      date: "August 2018 - May 2019",
-      points: [
-        "Addressing inquiries and requests from internal and external users.",
-        "Performing corrective and preventive maintenance of software and hardware.",
-        "Implementing new functionalities that streamline user's daily activities.",
-        "Establishing a backup routine to maintain the security of all company data.",
-        "Identifying and proposing improvements to the system and the support process.",
-      ],
-    },
+    }
   ];
   
   const projects = [
@@ -176,7 +197,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "WebLume",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -185,28 +206,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
@@ -214,8 +214,30 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: jobit,
+      source_code_link: "https://github.com/emanuelconte/webLume",
+    },
+    {
+      name: "COVID-19 Statistical Dashboard",
+      description:
+        "The COVID-19 pandemic impacted our planet for over two years. This application is a global COVID-19 dashboard that allows users" + 
+        " to select a country on the map and view case statistics, as well as interactive charts displaying case and death trends over time.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dashboard,
+      source_code_link: "https://statistic-map.vercel.app/",
     },
   ];
   
