@@ -18,7 +18,7 @@ import {
     conciflex,
     datadog,
     carrent,
-    jobit,
+    webLume,
     dashboard,
     threejs,
   } from "../assets";
@@ -118,13 +118,12 @@ import {
       date: "March 2024 - Present",
       points: [
         "Designed and deployed high-throughput financial APIs using Java/Spring Boot & Python, handling 10,000+ TPS with <50ms latency for payment processing and risk analysis.",
-        "Developed scalable Microservices with Hexagonal Architecture, improving modularity and reducing coupling by 40%; integrated GraphQL for flexible data aggregation.",
+        "Developed scalable Microservices with Hexagonal Architecture, integrated GraphQL for flexible data aggregation.",
         "Built REST/SOAP APIs for core banking systems (transactions, KYC, fraud detection), ensuring PCI-DSS compliance and end-to-end encryption (HTTPS, mutual TLS).",
-        "Optimized database performance (PostgreSQL/MySQL) by 35% via indexing, query tuning, and Redis caching, reducing response times for high-frequency trading data.",
-        "Automated CI/CD pipelines (Jenkins/GitHub Actions) with Docker/Kubernetes, cutting deployment time by 60% and enabling zero-downtime releases on AWS ECS.",
-        "Secured APIs with OAuth2, JWT, and RBAC; implemented audit trails and rate limiting to prevent abuse (fintech compliance).",
-        "Led migration of legacy monolith to event-driven Microservices (AWS SQS/SNS), improving scalability and fault tolerance for real-time stock trading.",
-        "Conducted load testing (Gatling/Locust) and static code analysis (SonarQube), maintaining 85%+ test coverage (JUnit, Mockito, pytest).",
+        "Optimized database performance (PostgreSQL/MySQL) via indexing, query tuning, and Redis caching, reducing response times for high-frequency trading data.",
+        "Automated CI/CD pipelines (Jenkins/GitHub Actions) with Docker/Kubernetes.",
+        "Secured APIs with OAuth2, JWT, and RBAC.",
+        "Led migration of legacy monolith to event-driven Microservices (AWS SQS/SNS).",
       ],
     },
     {
@@ -135,7 +134,7 @@ import {
       iconBg: "#383E56",
       date: "Since March 2024",
       points: [
-        "Developed 20+ responsive websites (SPAs, landing pages, portfolios) using React + TypeScript, optimizing for speed, SEO, and cross-browser compatibility.",
+        "Developed responsive websites (SPAs, landing pages, portfolios) using React + TypeScript, optimizing for speed, SEO, and cross-browser compatibility.",
         "Collaborated directly with clients to transform Figma/XD designs into functional websites, ensuring alignment with business goals.",
         "Deployed and maintained sites on Vercel/Netlify, integrating analytics (Google Tag Manager) and basic SEO enhancements.",
         "Followed Agile workflows to deliver projects on time, with post-launch support and iterative improvements.",
@@ -189,7 +188,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwindCSS",
           color: "pink-text-gradient",
         },
       ],
@@ -199,7 +198,8 @@ import {
     {
       name: "WebLume",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "WebLume is a digital agency specializing in modern websites, high-converting landing pages, and corporate sites, blending striking design" + 
+        " and efficient technology to elevate brands online..",
       tags: [
         {
           name: "react",
@@ -210,11 +210,11 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwindCSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: webLume,
       source_code_link: "https://github.com/emanuelconte/webLume",
     },
     {

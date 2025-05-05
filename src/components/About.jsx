@@ -43,7 +43,7 @@ const About = () => {
       <motion.p 
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          With over 4 years of experience in full-stack development, I specialize in building modern web applications using Java/Spring Boot and Python 
+          With over 5 years of experience in full-stack development, I specialize in building modern web applications using Java/Spring Boot and Python 
           for robust backend systems and React/TypeScript for dynamic frontend experiences. With expertise across the entire development stack, 
           I architect solutions that are scalable, secure, and maintainable - from RESTful APIs and microservices to responsive user interfaces.
           My technical toolkit includes cloud technologies (AWS, Docker) and DevOps practices to streamline deployment, along with a strong focus 

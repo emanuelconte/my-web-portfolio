@@ -25,7 +25,7 @@ import datadog from "./company/datadog.png";
 import lode from "./company/lode.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import webLume from "./webLume.png";
 import dashboard from "./dashboard.png";
 
 export {
@@ -53,6 +53,6 @@ export {
   conciflex,
   datadog,
   carrent,
-  jobit,
+  webLume,
   dashboard,
 };
