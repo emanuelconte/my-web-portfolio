@@ -1,4 +1,4 @@
-import {userState, useRef, useState} from 'react';
+import {useState, useRef} from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
@@ -11,7 +11,7 @@ import { slideIn } from '../utils/motion';
 
 const Contact = () => {
 
-  const formRef = useState();
+  const formRef = useRef();
   const [form, setForm] = useState ({
     name: '',
     email: '',

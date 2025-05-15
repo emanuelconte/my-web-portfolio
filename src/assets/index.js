@@ -21,10 +21,11 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import conciflex from "./company/conciflex.png";
+import codeIcon from "./company/code-icon.png";
 import datadog from "./company/datadog.png";
 import lode from "./company/lode.png";
 
-import carrent from "./carrent.png";
+import portfolio from "./portfolio.png";
 import webLume from "./webLume.png";
 import dashboard from "./dashboard.png";
 
@@ -52,7 +53,8 @@ export {
   lode,
   conciflex,
   datadog,
-  carrent,
+  codeIcon,
+  portfolio,
   webLume,
   dashboard,
 };

@@ -17,7 +17,8 @@ import {
     lode,
     conciflex,
     datadog,
-    carrent,
+    codeIcon,
+    portfolio,
     webLume,
     dashboard,
     threejs,
@@ -130,7 +131,7 @@ import {
       title: "Front End Developer",
       company_name: "WebLume (Freelancer) - Maringá, Brazil",
       company_link: "https://www.weblume.com.br",
-      icon: conciflex,
+      icon: codeIcon,
       iconBg: "#383E56",
       date: "Since March 2024",
       points: [
@@ -175,27 +176,6 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwindCSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
       name: "WebLume",
       description:
         "WebLume is a digital agency specializing in modern websites, high-converting landing pages, and corporate sites, blending striking design" + 
@@ -216,6 +196,27 @@ import {
       ],
       image: webLume,
       source_code_link: "https://github.com/emanuelconte/webLume",
+    },
+    {
+      name: "My Portfolio",
+      description:
+        "My personal portfolio website built with React, TypeScript, and Tailwind CSS.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindCSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/emanuelconte/my-web-portfolio",
     },
     {
       name: "COVID-19 Statistical Dashboard",
